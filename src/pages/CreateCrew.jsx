@@ -17,7 +17,7 @@ function CreateCrew() {
         )
         .select();
 
-        window.location = "/";
+        window.location = "/allCrew";
     }
 
     const handleChange = (event) => {
