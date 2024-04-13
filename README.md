@@ -1,8 +1,21 @@
-# React + Vite
+By the end of this assignment you will be able to...
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    [x]Setup and use supabase-js to manage a database
 
-Currently, two official plugins are available:
+    [x]Perform various API requests that will change your web app according to CRUD
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Required Features
+
+    [x]A create form allows users to add new crewmates
+
+    [x]Users can name the crewmate
+
+    [x]Users can set the crewmate’s attributes by clicking on one of several values
+
+    [x]The site displays a summary page of all the user’s added crewmates
+
+    [x]A previously created crewmate can be updated from the crewmate list
+
+    [x]A previously created crewmate can be deleted from the crewmate list
+
+    [x]Each crewmate has a direct, unique link to an info page about them
