@@ -1,0 +1,21 @@
+.comments-title{
+    text-align: left;
+    margin:0;
+    font-size: 30px;
+}
+
+.post-comments{
+    text-align: left;
+    background:rgb(209, 209, 209);
+    color:black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.post-comments:hover{
+    background:rgb(209, 209, 209);
+    color:black;
+    box-shadow: 0 0 10px black;
+}

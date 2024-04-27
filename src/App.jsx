@@ -2,9 +2,10 @@ import { useState } from 'react';
 import './App.css';
 import { useRoutes } from 'react-router-dom'; // Import useRoutes
 import Navbar from './components/Navbar.jsx';
-import ReadCrew from './pages/ReadCrew.jsx'; // Import components for each route
-import UpdateCrew from './pages/UpdateCrew.jsx';
-import CreateCrew from './pages/CreateCrew.jsx';
+import ReadPost from './pages/ReadPost.jsx'; // Import components for each route
+import UpdatePost from './pages/UpdatePost.jsx';
+import CreatePost from './pages/CreatePost.jsx';
+import SinglePost from './pages/SinglePost.jsx';
 import Home from './pages/Home.jsx'
 
 
@@ -12,21 +13,22 @@ function App() {
   const [count, setCount] = useState(0)
 
   let router = useRoutes([
+    
     {
       path: "/",
-      element:<Home/>
+      element:<ReadPost/>
     },
     {
-      path: "/allCrew",
-      element:<ReadCrew/>
+      path:"/post/:id",
+      element: <SinglePost/>
     },
     {
       path:"/update/:id",
-      element: <UpdateCrew />
+      element: <UpdatePost/>
     },
     {
       path:"/new",
-      element: <CreateCrew />
+      element: <CreatePost />
     }
   ]);
 

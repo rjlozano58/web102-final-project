@@ -1,0 +1,33 @@
+.comments-form textarea{
+    font-family: Helvetica;
+    color:black;
+    background:white;
+    padding:10px;
+    border: 1px solid black;
+
+
+}
+
+.comments-form {
+    width: 100%;
+    background: white;
+    margin-bottom: 0;
+
+}
+
+.comments-form button{
+    padding:10px;
+    width: fit-content;
+    margin:10px auto;
+    margin-bottom: 0;
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.comments-form button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

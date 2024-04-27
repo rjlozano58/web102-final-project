@@ -1,21 +1,27 @@
-By the end of this assignment you will be able to...
-
-    [x]Setup and use supabase-js to manage a database
-
-    [x]Perform various API requests that will change your web app according to CRUD
-
 Required Features
 
-    [x]A create form allows users to add new crewmates
+    [x] A create form that allows the user to create posts
 
-    [x]Users can name the crewmate
+    [x] Posts must contain a title, and optionally additional textual content and/or an image added as an external image URL
 
-    [x]Users can set the crewmate’s attributes by clicking on one of several values
+    [x] A home feed displaying previously created posts
 
-    [x]The site displays a summary page of all the user’s added crewmates
+    [x] By default, only the time created, title, and upvotes count for each post is shown on the posts feed
 
-    [x]A previously created crewmate can be updated from the crewmate list
+    [x] Clicking on a post shall direct the user to a new page for the selected post
 
-    [x]A previously created crewmate can be deleted from the crewmate list
+    [] Users can sort posts by either their created time or upvotes count
 
-    [x]Each crewmate has a direct, unique link to an info page about them
+    [] Users can search for posts by title
+
+    [x] A separate post page for each created post, where any additional information is shown, including content, image, and comments
+
+    [x] Users can leave comments underneath a post on the post page
+
+    [x] Each post should have an upvote button on the post page. Each click increases its upvotes count by one
+
+    [x] Users can upvote any post for any number of times, but not downvote
+
+    [x] A previously created post can be edited from its post page
+    
+    [x]  previously created post can be deleted from its post page

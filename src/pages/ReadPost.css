@@ -1,0 +1,158 @@
+
+.ReadCrew{
+    margin:0 auto;
+}
+.posts-container{
+    display: grid;
+    grid-template-columns : 40vw 40vw;
+    grid-template-rows : auto;
+    grid-gap:50px;
+    margin:50px auto;
+    width: fit-content;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    background: rgb(95, 95, 95);
+    border-radius: 10px;
+    text-align: center;
+    border: 5px solid black;
+    transition: 0.3s;
+}
+
+.post-img{
+  max-width: 100%;
+  max-height:400px;
+  border-radius: 10px;
+}
+
+.comments-container{
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.comments-container h1{
+  color:black;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 0px;
+  font-weight:500;
+  font-size: 25px;
+}
+
+.like-edit-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.like-edit-button button{
+  width: fit-content;
+  padding:10px;
+  margin: 0 10px;
+  font-size: 20px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: black;
+}
+
+.like-edit-button button:hover{
+  
+  /* background: black;
+  border: 2px solid white;
+  color: white; */
+  transform: scale(1.1);
+
+}
+
+
+.update-button{
+  width: fit-content;
+  padding:10px;
+  margin: 0 10px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: black;
+}
+
+.update-button:hover{
+  
+  transform: scale(1.1);
+
+}
+
+.view-button{
+  width: fit-content;
+  padding:10px;
+  margin: 0 10px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: black;
+}
+
+.view-button:hover{
+
+  transform: scale(1.1);
+
+}
+
+.post-time{
+  text-align: left;
+  font-weight: 600;
+}
+
+.post-title{
+  background: white;
+  margin: 0 auto; 
+  color: black;
+  font-weight: 300;
+  width:fit-content;
+  border-radius: 10px;
+  padding:10px;
+  transition: 0.3s;
+}
+
+.post-title{
+  transform: 1.1;
+}
+
+.post-body{
+  font-size: 20px;
+  text-align: left;
+  width: 100;
+  height: fit-content;
+  margin: 20px 0;
+  background:white;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  color: black;
+  font-weight: 300;
+  padding:20px;
+  transition: 0.3s;
+}
+
+.post-body:hover{
+  transform: scale(1.1);
+}
+
+form textarea{
+  background: white;
+  color: black;
+  font-family: 'Helvetica';
+}
+
+form select{
+  background: white;
+  color: black;
+  width:100%;
+}
